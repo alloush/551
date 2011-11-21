@@ -10,16 +10,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class steganography extends Activity {
-    
-    private static final int SELECT_PICTURE = 1;
-    private String selectedImagePath;
-    private ImageView img;
     private static final int SELECT_IMAGE = 0; // selector for image gallery call
     
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
                 setContentView(R.layout.main);
+                
         ((Button) findViewById(R.id.Button01))
                 .setOnClickListener(new OnClickListener() {
 
